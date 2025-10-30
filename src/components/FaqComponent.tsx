@@ -12,7 +12,7 @@ const FaqComponent = ({ questionsList }: FaqComponentProps) => {
             <h1 className="font-bold text-4xl text-white">Frequently Asked Questions</h1>
             {list.map((q) =>
                 <ul>
-                    <li key={q.id} className="flex flex-col gap-2"><QuestionComponet question={q} /></li>
+                    <li key={q.id} className="flex flex-col gap-2"><QuestionComponet ques={q} /></li>
                 </ul>
             )}
         </div>
